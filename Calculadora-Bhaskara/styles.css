@@ -1,0 +1,49 @@
+/* Definir altura total da página */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://s1.static.brasilescola.uol.com.br/be/conteudo/images/equacao-normal-segundo-grau-formula-bhaskara-5714f551c99c5.jpg')
+}
+
+#main {
+  background-color: #1E1138; /* Cor de fundo da div */
+  padding: 20px;          /* Padding dentro da caixa */
+  border-radius: 10px;     /* Bordas arredondadas (opcional) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* Alinha os elementos dentro da div ao centro */
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra (opcional) */
+}
+
+.centro {
+  color: white;           /* Cor do texto dos labels */
+  margin-bottom: 10px;    /* Espaçamento entre os elementos */
+}
+
+input {
+  margin-bottom: 10px;    /* Espaçamento abaixo de cada input */
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: white;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+h1{
+  color:white
+}
